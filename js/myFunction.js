@@ -6,7 +6,7 @@ const textArr2 = 'Chicken Hamburger Pizza Salad Sushi Bibimbab Gimbab JJajangmye
 
 function initTexts(element, textArray){
     textArray.push(...textArray);
-    for(let i=0; i<textArray.length; i++){
+    for(let i=0; i < textArray.length; i++){
         element.innerText += `${textArray[i]}\u00A0\u00A0\u00A0\u00A0`;
     }
 }
@@ -29,8 +29,8 @@ function animate(){
     count1++;
     count2++;
 
-    marqueeText(count1, pText1, -1);
-    marqueeText(count2, pText2, 1);
+    count1 = marqueeText(count1, pText1, -1);
+    count2 = marqueeText(count2, pText2, 1);
 
     window.requestAnimationFrame(animate);
 }
