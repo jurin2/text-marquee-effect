@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+:root{
+    font-size: 3em;
+}
+
+html,body{
+    width: 100%;
+    background-color: #000;
+    font-family: "pacifico", cursive;
+    overflow-x: hidden;
+    height: 3000px;
+}
+
+.cover{
+    width: 100%;
+    margin-bottom: 5em;
+    display: flex;
+    color: #fff;
+}
+
+.cover:nth-child(1){
+    margin-top: 20%;
+    background-color: blue;
+    transform: rotate(-2deg);
+}
+.cover:nth-child(2){
+    background-color: blueviolet;
+    transform: rotate(2deg);
+    justify-content: flex-end;
+}
