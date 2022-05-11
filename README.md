@@ -9,5 +9,4 @@
 자바스크립트를 이용해 문장 뒤에 똑같은 문장을 복제해 계속 흐르는 것처럼 보일 수 있게 만들었습니다.
 <br><br>
 
-
-![text](https://user-images.githubusercontent.com/89722981/167867097-ba296f5a-141b-41e6-98ac-5bfe8f080002.gif);
+![text-effect](https://user-images.githubusercontent.com/89722981/167925300-ad068900-6af9-4ef2-8506-12acb7da72b2.gif)
